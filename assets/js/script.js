@@ -8,10 +8,10 @@ function pintar(color = 'green'){
     ele.style.backgroundColor = color
 }
 
-//Selección del elemento al cual se le modificará el color de fondo
+// Selección del elemento al cual se le modificará el color de fondo
 const ele = document.getElementById("ele1")
-//Se ejecuta la función pintar() cuando ocurre el evento click encima del elemento web seleccionado
+// Se ejecuta la función pintar() cuando ocurre el evento click encima del elemento web seleccionado
 ele.addEventListener("click", function(){
     pintar('yellow')
-});
+})
 
