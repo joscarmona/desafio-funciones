@@ -41,7 +41,7 @@ function addElement(elementId, webelement = 'div'){
     // Al nuevo elemento se le asigna un ID
      newElement.id = idGenerator()
      newElementId = newElement.id
-     console.log(newElementId)
+    //  console.log(newElementId)
 
     // Asignamos un texto al nuevo elemento
     newElement.textContent = 'Elemento agregado ' + idnumber

@@ -1,0 +1,71 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+/* Section que contiene los elementos h1 */
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5em;
+    color: rgb(183, 244, 253);
+}
+
+/* H1 */
+h1{
+    text-align: center;
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #3f51b5;
+    border-radius: 10px;
+}
+
+/* Enunciado */
+.enunciado{
+    text-align: center;
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #3f51b5;
+    border-radius: 10px;
+}
+
+/* Lista de requerimientos */
+.lista-de-requerimientos{
+    background-color: #3f51b5;
+    border-radius: 10px;
+    /* text-align: center; */
+    width: 335px;
+    justify-items: center;
+}
+
+/* ul */
+ul{
+    width: 80%;
+    justify-items: center;
+}
+
+/* li */
+li{
+    width: 80%;
+    margin: 1em;
+}
+
+/* a */
+a{
+    color: rgb(183, 244, 253);
+}
+
+a:hover{
+    color: antiquewhite;
+    text-decoration: none;
+}
