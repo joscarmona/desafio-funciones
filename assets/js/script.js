@@ -8,12 +8,13 @@
 // Función que modifica color de fondo de un elemento web dado
 // Se define un valor por defecto al parámetro color, en este caso 'green'
 function pintar(elementId, color = 'green'){
-    // Selección de elemento que se recibe por parámetro
+    // Selección del elemento web que se recibe por parámetro
     const element = document.querySelector('#' + elementId)
+    // Modifica el color de fondo del elemento web seleccionado
     element.style.backgroundColor = color
 }
 
-// Selección del elemento al cual se le modificará el color de fondo
+// Selección del elemento web que se utiliza en el evento de escucha
 const ele = document.getElementById('ele1')
 // Se ejecuta la función pintar() cuando ocurre el evento click encima del elemento web seleccionado
 ele.addEventListener("click", function(){
